@@ -19,6 +19,7 @@ require 'active_support'
 ActiveSupport::Dependencies.autoload_paths = [
   'lib/'
 ]
+Dir[File.expand_path('spec/support/**/*.rb')].each { |file| require file }
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
