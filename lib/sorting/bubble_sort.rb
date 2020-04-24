@@ -2,6 +2,7 @@
 
 module Sorting
   # https://en.wikipedia.org/wiki/Bubble_sort
+  # https://en.wikipedia.org/wiki/File:Bubble-sort-example-300px.gif
   class BubbleSort
     def self.sort(list)
       swap = true
