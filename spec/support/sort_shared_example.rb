@@ -15,5 +15,11 @@ shared_examples 'sorting array' do
 
       it { is_expected.to eq input }
     end
+
+    context 'random large array' do
+      let(:input) { Array.new(100) { rand(1...100) } }
+
+      it { is_expected.to eq input.sort }
+    end
   end
 end
