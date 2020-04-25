@@ -2,7 +2,6 @@
 
 module Sorting
   # https://en.wikipedia.org/wiki/Insertion_sort
-  # https://en.wikipedia.org/wiki/File:Insertion-sort-example-300px.gif
   class InsertionSort
     def self.sort(list)
       list.length.times do |i|

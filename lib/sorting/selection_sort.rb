@@ -2,7 +2,6 @@
 
 module Sorting
   # https://en.wikipedia.org/wiki/Selection_sort
-  # https://en.wikipedia.org/wiki/File:Selection-Sort-Animation.gif
   class SelectionSort
     def self.sort(list)
       count = list.length - 1
