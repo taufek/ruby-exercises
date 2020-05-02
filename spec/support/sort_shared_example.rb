@@ -2,12 +2,14 @@
 
 shared_examples 'sorting array' do
   describe '.sort' do
-    subject { described_class.sort(input) }
+    subject { described_class.sort(input.dup) }
 
     context 'multiple numbers' do
       let(:input) { [10, 6, 4, 9, 1] }
 
-      it { is_expected.to eq input.sort }
+      it do
+        expect(subject).to eq input.sort
+      end
     end
 
     context 'single number' do

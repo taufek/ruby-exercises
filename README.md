@@ -6,6 +6,7 @@
 * [Insertion Sort](#insertion_sort)
 * [Selection Sort](#selection_sort)
 * [Merge Sort](#merge_sort)
+* [Quick Sort](#quick_sort)
 
 ## [Sorting](#sorting)
 
@@ -63,6 +64,18 @@ Conceptually, a merge sort works as follows:
 
 [Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/merge_sort.rb)
 
+### [Quick Sort](#quick_sort)
+Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting.
+
+<kbd>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif"
+    alt="Quick Sort"
+  />
+</kbd>
+
+[Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/quick_sort.rb)
+
 ## References:
 * https://en.wikipedia.org/wiki/Bubble_sort
 * https://en.wikipedia.org/wiki/File:Bubble-sort-example-300px.gif
@@ -72,5 +85,7 @@ Conceptually, a merge sort works as follows:
 * https://en.wikipedia.org/wiki/Selection_sort#/media/File:Selection-Sort-Animation.gif
 * https://en.wikipedia.org/wiki/Merge_sort
 * https://en.wikipedia.org/wiki/File:Merge-sort-example-300px.gif
+* https://en.wikipedia.org/wiki/Quicksort
+* https://en.wikipedia.org/wiki/File:Sorting_quicksort_anim.gif
 
 
