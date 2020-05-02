@@ -11,18 +11,14 @@ module Sorting
       left_list = list[0..middle_index - 1]
       right_list = list[middle_index..list.length]
 
-      puts "#{left_list} | #{right_list}"
       sorted_left_list = sort(left_list)
       sorted_right_list = sort(right_list)
 
-      puts "#{sorted_left_list} <> #{sorted_right_list}"
       merged = merge(sorted_left_list, sorted_right_list)
-      puts merged.to_s
       merged
     end
 
     def self.merge(left_list, right_list)
-      puts "#{left_list} + #{right_list}"
       if left_list.empty?
         right_list
       elsif right_list.empty?
