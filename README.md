@@ -5,6 +5,7 @@
 * [Bubble Sort](#bubble_sort)
 * [Insertion Sort](#insertion_sort)
 * [Selection Sort](#selection_sort)
+* [Merge Sort](#merge_sort)
 
 ## [Sorting](#sorting)
 
@@ -46,10 +47,30 @@ The algorithm divides the input list into two parts: a sorted sublist of items w
 
 [Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/selection_sort.rb)
 
+### [Merge Sort](#merge_sort)
+Conceptually, a merge sort works as follows:
+
+1. Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).
+2. Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.
+
+
+<kbd>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif"
+    alt="Merge Sort"
+  />
+</kbd>
+
+[Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/merge_sort.rb)
+
 ## References:
 * https://en.wikipedia.org/wiki/Bubble_sort
 * https://en.wikipedia.org/wiki/File:Bubble-sort-example-300px.gif
 * https://en.wikipedia.org/wiki/Insertion_sort
 * https://en.wikipedia.org/wiki/File:Insertion-sort-example-300px.gif
+* https://en.wikipedia.org/wiki/Selection_sort
+* https://en.wikipedia.org/wiki/Selection_sort#/media/File:Selection-Sort-Animation.gif
+* https://en.wikipedia.org/wiki/Merge_sort
+* https://en.wikipedia.org/wiki/File:Merge-sort-example-300px.gif
 
 
