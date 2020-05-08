@@ -7,6 +7,7 @@
 * [Selection Sort](#selection_sort)
 * [Merge Sort](#merge_sort)
 * [Quick Sort](#quick_sort)
+* [Heap Sort](#heap_sort)
 
 ## [Sorting](#sorting)
 
@@ -76,6 +77,18 @@ Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' ele
 
 [Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/quick_sort.rb)
 
+### [Heap Sort](#heap_sort)
+heapsort divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element from it and inserting it into the sorted region.
+
+<kbd>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif"
+    alt="Heap Sort"
+  />
+</kbd>
+
+[Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/quick_sort.rb)
+
 ## References:
 * https://en.wikipedia.org/wiki/Bubble_sort
 * https://en.wikipedia.org/wiki/File:Bubble-sort-example-300px.gif
@@ -87,5 +100,5 @@ Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' ele
 * https://en.wikipedia.org/wiki/File:Merge-sort-example-300px.gif
 * https://en.wikipedia.org/wiki/Quicksort
 * https://en.wikipedia.org/wiki/File:Sorting_quicksort_anim.gif
-
-
+* https://en.wikipedia.org/wiki/Heapsort
+* https://en.wikipedia.org/wiki/Heapsort#/media/File:Sorting_heapsort_anim.gif
