@@ -9,7 +9,6 @@ module Sorting
       n.downto(0) do |index|
         heap_sort(list, index)
         list[index], list[0] = list[0], list[index]
-        puts list.to_s
       end
       list
     end
