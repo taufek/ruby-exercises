@@ -87,7 +87,7 @@ heapsort divides its input into a sorted and an unsorted region, and it iterativ
   />
 </kbd>
 
-[Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/quick_sort.rb)
+[Source code](https://github.com/taufek/ruby-exercises/blob/master/lib/sorting/heap_sort.rb)
 
 ## References:
 * https://en.wikipedia.org/wiki/Bubble_sort
